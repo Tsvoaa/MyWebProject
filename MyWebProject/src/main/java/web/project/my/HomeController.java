@@ -28,10 +28,23 @@ public class HomeController {
 		return "Index";
 	}
 	
-	@RequestMapping("/Index")
+	@RequestMapping(value="/Index")
 	public String home()
 	{
 		return "Index";
 	}
+	
+	@RequestMapping(value = "Nav/NavBarLogin")
+	public String NavBarLogin()
+	{
+		return "Nav/NavBarLogin";
+	}
+	
+	@RequestMapping(value = "Nav/NavBarLogout.do")
+	public String NavBarLogout()
+	{
+		return "Nav/NavBarLogout.jsp";
+	}
+	
 	
 }
