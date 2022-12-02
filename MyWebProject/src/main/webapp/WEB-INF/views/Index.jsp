@@ -4,7 +4,8 @@
 	request.setCharacterEncoding("utf-8");
 
 	String Nav = "";
-	String Main = "";
+	String Main = request.getParameter("main");
+	String Footer = "";
 	
 	
 	String user = (String)session.getAttribute("user");
@@ -18,9 +19,14 @@
 		Nav = "Nav/NavBarLogout.jsp";
 	}
 	
-	if(Main == "")
+	if(Main == null)
 	{
 		Main = "Main/Main.jsp";
+	}
+	
+	if(Footer == "")
+	{
+		Footer = "Footer/Info.jsp";
 	}
 	
 
@@ -36,6 +42,7 @@
 	<jsp:include page="<%= Nav %>"></jsp:include>
 	<!-- WebSite Main JSP Include -->
 	<jsp:include page="<%= Main %>"></jsp:include>
-	
+	<!-- WebSite Footer JSP Include -->
+	<jsp:include page="<%= Footer %>"></jsp:include>
 </body>
 </html>

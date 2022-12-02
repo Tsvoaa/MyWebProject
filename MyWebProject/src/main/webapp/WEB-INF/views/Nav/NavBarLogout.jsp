@@ -4,7 +4,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="/my/resources/css/NavBar.css?ver=10" />
+	<link rel="stylesheet" href="/my/resources/css/NavBar.css?ver=11" />
 </head>
 <body>
 	<div class="container">
@@ -24,7 +24,7 @@
 				<span>Join</span>
 			</div>
 			<div class="right-item">
-				<span>Login</span>
+				<span><a href="Main/Member/LoginView">Login</a></span>
 			</div>
 		</div>
 	</div>

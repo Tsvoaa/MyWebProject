@@ -4,6 +4,8 @@ import java.text.DateFormat;
 import java.util.Date;
 import java.util.Locale;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
@@ -40,10 +42,17 @@ public class HomeController {
 		return "Nav/NavBarLogin";
 	}
 	
-	@RequestMapping(value = "Nav/NavBarLogout.do")
+	@RequestMapping(value = "Nav/NavBarLogout")
 	public String NavBarLogout()
 	{
 		return "Nav/NavBarLogout.jsp";
+	}
+	
+	@RequestMapping(value = "Main/Member/LoginView", method = RequestMethod.GET)
+	public String LoginView()
+	{
+		
+		return "Index.jsp?main=Main/Member/LoginView";
 	}
 	
 	
