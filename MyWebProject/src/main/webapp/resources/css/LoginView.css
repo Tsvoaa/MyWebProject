@@ -1,0 +1,60 @@
+
+
+.loginViewContainer
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	
+	
+}
+
+.loginViewContainer form
+{
+	width: 30%;
+	height : 400px;
+	background: black;
+
+	border-radius: 5px;
+	
+	margin-top: 200px;
+	
+}
+
+.loginViewContainer div
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	margin-bottom: 10px;
+}
+
+.loginViewContainer .loginId
+{
+	margin-top: 100px;
+}
+
+.loginViewContainer .loginButton Button
+{
+	width: 70%;
+}
+
+.loginViewContainer input
+{
+	width: 70%;
+}
+
+.loginViewContainer .loginSearch a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.loginViewContainer .loginSearch span
+{
+	color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+}

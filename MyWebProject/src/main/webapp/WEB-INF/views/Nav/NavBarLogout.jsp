@@ -24,7 +24,7 @@
 				<span>Join</span>
 			</div>
 			<div class="right-item">
-				<span><a href="Main/Member/LoginView">Login</a></span>
+				<span><a href="LoginView">Login</a></span>
 			</div>
 		</div>
 	</div>
