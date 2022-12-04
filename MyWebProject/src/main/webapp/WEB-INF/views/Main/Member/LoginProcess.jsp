@@ -16,15 +16,16 @@
 	
 	String sql = "";
 	
-	sql = "SELECT memberpw FROM member WHERE id = '" + id + "'";
+	sql = "SELECT memberpw FROM member WHERE memberid = '" + id + "'";
 	
-	String[][] result = new String[300][1];
-	
-	result = db.SqlSelect(sql, 1);
+	String[][] result = db.SqlSelect(sql, 1);
 	
 	if(result[0][0].equals(pw))
 	{
 		session.setAttribute("user", id);
+		out.println("<script>");
+		out.println("location.replace('/my/')");
+		out.println("</script>");
 	}
 	else
 	{

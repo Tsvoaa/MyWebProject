@@ -61,37 +61,43 @@ public class MySqlDataBase {
 	public String[][] SqlSelect(String sql, int columns)
 	{
 		
+		System.out.println("1");
 		int columnsCount = 0;
 		
 		try
 		{
+			System.out.println("2");
+			
 			rs = stmt.executeQuery(sql);
 			
-			rs.last();
+			System.out.println("3");
 			
-			columnsCount = rs.getRow();
+			
+			ResultSetMetaData metaData = rs.getMetaData();
+			
+			columnsCount = metaData.getColumnCount();
+				
+			System.out.println("4");
+			
+			System.out.println(columnsCount);
 			
 			String[][] result = new String[columnsCount][columns];
-			
-			rs.first();
+
+			System.out.println("5");
 			
 			int len = 0;
 
-			
-			do
+			while(rs.next())
 			{
-				
 				for(int i = 0; i < columns; i++)
 				{
 					result[len][i] = rs.getString(i + 1);
 				}
 				
 				len++;
-				
 			}
-			while(rs.next());
 			
-			
+			System.out.println("7");
 			
 			
 			return result;
