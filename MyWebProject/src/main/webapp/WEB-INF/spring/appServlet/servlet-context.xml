@@ -24,7 +24,7 @@
 	</beans:bean>
 	
 	<context:component-scan base-package="web.project.my" />
-	
-	
-	
+
+
+
 </beans:beans>

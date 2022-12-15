@@ -1,13 +1,8 @@
 package web.project.my;
 
-import java.text.DateFormat;
-import java.util.Date;
+
 import java.util.Locale;
 
-import javax.servlet.http.HttpServletRequest;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -37,11 +32,6 @@ public class HomeController {
 	}
 	
 	
-	
-	@RequestMapping(value = "ChatMain")
-	public String ChatMain()
-	{
-		return "/Index.jsp?main=Main/Chat/ChatMain";
-	}
+
 	
 }
