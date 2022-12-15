@@ -13,7 +13,7 @@
 				<sapn>Logo</sapn>
 			</div>
 			<div class="left-item">
-				<span>메뉴1</span>
+				<a href="ChatMain"><span>Chat</span></a>
 			</div>
 			<div class="left-item">
 				<span>메뉴2</span>
@@ -24,7 +24,7 @@
 				<span>MyPage</span>
 			</div>
 			<div class="right-item">
-				<span>Logout</span>
+				<a href="LogoutProcess"><span>Logout</span></a>
 			</div>
 		</div>
 	</div>

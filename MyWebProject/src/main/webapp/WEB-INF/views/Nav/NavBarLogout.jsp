@@ -4,7 +4,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="/my/resources/css/NavBar.css?ver=11" />
+	<link rel="stylesheet" href="/my/resources/css/NavBar.css?ver=12" />
 </head>
 <body>
 	<div class="container">
@@ -13,7 +13,7 @@
 				<sapn>Logo</sapn>
 			</div>
 			<div class="left-item">
-				<span>메뉴1</span>
+				<a href="ChatMain"><span>Chat</span></a>
 			</div>
 			<div class="left-item">
 				<span>메뉴2</span>
@@ -24,7 +24,7 @@
 				<span>Join</span>
 			</div>
 			<div class="right-item">
-				<span><a href="LoginView">Login</a></span>
+				<a href="LoginView"><span>Login</span></a>
 			</div>
 		</div>
 	</div>

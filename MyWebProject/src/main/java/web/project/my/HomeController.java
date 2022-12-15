@@ -36,29 +36,12 @@ public class HomeController {
 		return "Index";
 	}
 	
-	@RequestMapping(value = "/my/Nav/NavBarLogin")
-	public String NavBarLogin()
-	{
-		return "/Nav/NavBarLogin";
-	}
 	
-	@RequestMapping(value = "/my/Nav/NavBarLogout")
-	public String NavBarLogout()
-	{
-		return "/Nav/NavBarLogout";
-	}
 	
-	@RequestMapping(value = "LoginView", method = RequestMethod.GET)
-	public String LoginView()
+	@RequestMapping(value = "ChatMain")
+	public String ChatMain()
 	{
-		
-		return "/Index.jsp?main=Main/Member/LoginView";
-	}
-	
-	@RequestMapping(value = "LoginProcess", method = RequestMethod.POST)
-	public String LoginProcess()
-	{
-		return "/Index.jsp?main=Main/Member/LoginProcess";
+		return "/Index.jsp?main=Main/Chat/ChatMain";
 	}
 	
 }

@@ -58,32 +58,25 @@ public class MySqlDataBase {
 		
 	}
 
+	// MySQL Select
 	public String[][] SqlSelect(String sql, int columns)
 	{
 		
-		System.out.println("1");
 		int columnsCount = 0;
 		
 		try
 		{
-			System.out.println("2");
-			
 			rs = stmt.executeQuery(sql);
 			
-			System.out.println("3");
-			
-			
+			// MetaData를 반환
 			ResultSetMetaData metaData = rs.getMetaData();
 			
+			// column의 갯수를 반환
 			columnsCount = metaData.getColumnCount();
 				
-			System.out.println("4");
-			
-			System.out.println(columnsCount);
-			
+			// 행과 열의 갯수만큼 2차원 배열 생성
 			String[][] result = new String[columnsCount][columns];
 
-			System.out.println("5");
 			
 			int len = 0;
 
@@ -97,9 +90,6 @@ public class MySqlDataBase {
 				len++;
 			}
 			
-			System.out.println("7");
-			
-			
 			return result;
 			
 		}
@@ -112,13 +102,11 @@ public class MySqlDataBase {
 			try {
 				rs.close();
 			} catch (SQLException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 			try {
 				stmt.close();
 			} catch (SQLException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
@@ -147,7 +135,6 @@ public class MySqlDataBase {
 			try {
 				stmt.close();
 			} catch (SQLException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
@@ -177,7 +164,6 @@ public class MySqlDataBase {
 			try {
 				stmt.close();
 			} catch (SQLException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
@@ -210,7 +196,6 @@ public class MySqlDataBase {
 			try {
 				stmt.close();
 			} catch (SQLException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
@@ -223,7 +208,6 @@ public class MySqlDataBase {
 		try {
 			conn.close();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 			
 			return false;
