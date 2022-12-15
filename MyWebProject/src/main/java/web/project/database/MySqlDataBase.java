@@ -5,7 +5,7 @@ import java.sql.*;
 public class MySqlDataBase {
 
 	private static final String DriverClass = "com.mysql.cj.jdbc.Driver";
-	private static final String URL = "jdbc:mysql://43.200.12.50:3306/stdm?serverTimeZone=UTC";
+	private static final String URL = "jdbc:mysql://43.200.12.50:3306/mywebpage?serverTimeZone=UTC";
 	private static final String UserName = "wskjdd12";
 	private static final String PassWord = "zkskep12";
 	

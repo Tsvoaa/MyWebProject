@@ -20,6 +20,8 @@
 	
 	String[][] result = db.SqlSelect(sql, 1);
 	
+	db.DisConnecting();
+	
 	if(result[0][0].equals(pw))
 	{
 		session.setAttribute("user", id);
@@ -35,5 +37,5 @@
 		out.println("</script>");
 	}
 	
-	db.DisConnecting();
+	
 %>

@@ -4,7 +4,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="/my/resources/css/NavBar.css?ver=9" />
+	<link rel="stylesheet" href="/my/resources/css/NavBar.css?ver=10" />
 </head>
 <body>
 	<div class="container">
