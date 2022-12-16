@@ -39,10 +39,18 @@
 </head>
 <body>
 	<!-- WebSite Nav JSP Include -->
-	<jsp:include page="<%= Nav %>"></jsp:include>
+	<div>
+		<jsp:include page="<%= Nav %>"></jsp:include>
+	</div>
+	
 	<!-- WebSite Main JSP Include -->
-	<jsp:include page="<%= Main %>"></jsp:include>
+	<div>
+		<jsp:include page="<%= Main %>"></jsp:include>
+	</div>
 	<!-- WebSite Footer JSP Include -->
-	<jsp:include page="<%= Footer %>"></jsp:include>
+	<div>
+		<jsp:include page="<%= Footer %>"></jsp:include>
+	</div>
+	
 </body>
 </html>

@@ -24,6 +24,9 @@
 				<span> / </span>
 				<span><a href="#">비밀번호 찾기</a></span>
 			</div>
+			<div class="loginjoin">
+				<span><a href="Join">회원 가입</a></span>
+			</div>
 		</form>
 		
 	</div>

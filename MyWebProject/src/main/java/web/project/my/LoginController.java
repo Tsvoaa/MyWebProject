@@ -37,4 +37,11 @@ public class LoginController {
 	{
 		return "/Index.jsp?main=Main/Member/LogoutProcess";
 	}
+	
+	@RequestMapping(value="Join")
+	public String Join()
+	{
+		return "/Index.jsp?main=Main/Member/Join";
+	}
+	
 }

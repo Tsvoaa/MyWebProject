@@ -9,7 +9,7 @@ body
 	
 }
 
-.container 
+.navContainer 
 {
 	width: 100%;
 	height: 50px;
@@ -20,7 +20,7 @@ body
 	align-items: center;
 }
 
-.container .menu-left
+.navContainer .menu-left
 {
 	width: 18%;
 	height: 100%;
@@ -29,7 +29,7 @@ body
 	grid-template-columns: 1fr 1fr 1fr;
 }
 
-.container .menu-right
+.navContainer .menu-right
 {
 	width: 12%;
 	height: 100%;
@@ -38,8 +38,8 @@ body
 	grid-template-columns: 1fr 1fr;
 }
 
-.container .menu-left .left-item,
-.container .menu-right .right-item
+.navContainer .menu-left .left-item,
+.navContainer .menu-right .right-item
 {
 	background: black;
 	color: white;
@@ -53,14 +53,14 @@ body
     transition: background-color 0.3s ease-in-out;
 }
 
-.container .menu-left .left-item span,
-.container .menu-right .right-item span
+.navContainer .menu-left .left-item span,
+.navContainer .menu-right .right-item span
 {
 	font-size: 14pt;
 }
 
-.container .menu-left .left-item:hover,
-.container .menu-right .right-item:hover
+.navContainer .menu-left .left-item:hover,
+.navContainer .menu-right .right-item:hover
 {
 	background: white;
 	color: black;
@@ -74,25 +74,25 @@ body
     transition: background-color 0.3s ease-in-out;
 }
 
-.container .menu-left a
+.navContainer .menu-left a
 {
 	text-decoration: none;
 	color: white;
 }
 
-.container .menu-left a:hover
+.navContainer .menu-left a:hover
 {
 	text-decoration: none;
 	color: black;	
 }
 
-.container .menu-right a 
+.navContainer .menu-right a 
 {
 	text-decoration: none;
 	color: white;
 }
 
-.container .menu-right a:hover
+.navContainer .menu-right a:hover
 {
 	text-decoration: none;
 	color: black;	

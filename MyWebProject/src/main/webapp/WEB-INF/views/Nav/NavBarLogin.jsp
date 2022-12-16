@@ -4,10 +4,10 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="/my/resources/css/NavBar.css?ver=10" />
+	<link rel="stylesheet" href="/my/resources/css/NavBar.css?ver=12" />
 </head>
 <body>
-	<div class="container">
+	<div class="navContainer">
 		<div class="menu-left">
 			<div class="logo">
 				<sapn>Logo</sapn>
