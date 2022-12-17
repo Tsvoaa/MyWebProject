@@ -72,11 +72,12 @@ public class MySqlDataBase {
 			ResultSetMetaData metaData = rs.getMetaData();
 			
 			// column의 갯수를 반환
-			columnsCount = metaData.getColumnCount();
+			columnsCount = metaData.getColumnCount() + 1;
 				
 			// 행과 열의 갯수만큼 2차원 배열 생성
 			String[][] result = new String[columnsCount][columns];
 
+			
 			
 			int len = 0;
 
@@ -121,7 +122,7 @@ public class MySqlDataBase {
 		
 		try
 		{
-			stmt.executeQuery(sql);
+			stmt.executeUpdate(sql);
 		}
 		catch(Exception e)
 		{

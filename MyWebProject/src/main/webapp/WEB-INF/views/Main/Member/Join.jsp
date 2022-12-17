@@ -13,14 +13,14 @@
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
 	crossorigin="anonymous">
-<script defer src="/my/resources/js/Join.js?ver=1" ></script>
+<script defer src="/my/resources/js/Join.js?ver=2" ></script>
 </head>
 <body>
 	<div class="joinContainer">
 		<div class="input-form-backgroud row">
 			<div class="input-form col-md-12 mx-auto">
 				<h4 class="mb-3">회원가입</h4>
-				<form class="validation-form" novalidate>
+				<form class="validation-form" action="JoinProcess" method="post">
 					<div class="mb-3">
 						<label for="id">아이디</label> 
 						<input type="text" class="form-control" id="id" name="id" placeholder="" value="" required>
@@ -63,7 +63,7 @@
 							<label class="custom-control-label" for="aggrement">개인정보 수집 및 이용에 동의합니다.</label>
 					</div>
 					<div class="mb-4"></div>
-					<button class="btn btn-primary btn-lg btn-block" type="button" onclick="joinCheck()">가입 완료</button>
+					<button class="btn btn-primary btn-lg btn-block" type="button" id="processBtn" onclick="joinCheck()">가입 완료</button>
 				</form>
 			</div>
 		</div>

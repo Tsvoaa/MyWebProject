@@ -10,7 +10,7 @@
 	<div class="navContainer">
 		<div class="menu-left">
 			<div class="logo">
-				<sapn>Logo</sapn>
+				<a href="Index"><sapn>Logo</sapn></a>
 			</div>
 			<div class="left-item">
 				<a href="ChatMain"><span>Chat</span></a>
@@ -21,7 +21,7 @@
 		</div>
 		<div class="menu-right">
 			<div class="right-item">
-				<span>Join</span>
+				<a href="Join"><span>Join</span></a>
 			</div>
 			<div class="right-item">
 				<a href="LoginView"><span>Login</span></a>

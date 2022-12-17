@@ -9,6 +9,8 @@ function joinCheck()
 	let phone = document.getElementById("phone");
 	let aggrement = document.getElementById("aggrement");
 	
+	let btn = document.getElementById("processBtn");
+	
 	if(id.value == "")
 	{
 		alert("아이디는 비어있을 수 없습니다.");
@@ -66,6 +68,9 @@ function joinCheck()
 		alert("올바른 이메일 형식이 아닙니다.");
 		return;
 	}
+	
+	btn.type = "submit";
+	
 	
 }
 
