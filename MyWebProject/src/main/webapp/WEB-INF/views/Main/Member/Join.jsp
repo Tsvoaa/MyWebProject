@@ -8,12 +8,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Insert title here</title>
-<link rel="stylesheet" href="/resources/css/Join.css?ver=4">
+<link rel="stylesheet" href="/my/resources/css/Join.css?ver=3">
 <link rel="stylesheet"
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
 	crossorigin="anonymous">
-
+<script defer src="/my/resources/js/Join.js?ver=1" ></script>
 </head>
 <body>
 	<div class="joinContainer">
@@ -27,9 +27,9 @@
 						<div class="invalid-feedback">아이디를 입력해주세요.</div>
 					</div>
 					<div class="mb-3">
-						<label for="nickname">닉네임</label> 
-						<input type="text" class="form-control" id="nickname" placeholder="" value="" required>
-						<div class="invalid-feedback">닉네임을 입력해주세요.</div>
+						<label for="nickname">이름</label> 
+						<input type="text" class="form-control" id="name" name="name" placeholder="" value="" required>
+						<div class="invalid-feedback">이름을 입력해주세요.</div>
 					</div>
 					<div class="mb-3">
 						<lable for="password">비밀번호</lable>
@@ -40,15 +40,15 @@
 					</div>
 					<div class="mb-3">
 						<label for="address">성별</label> 
-						<select class="custon-select d-block w-100" id="gender">
-							<option>성별</option>
+						<select class="custon-select d-block w-100" id="gender" name="gender">
+							<option value="non">성별</option>
 							<option value="male">남자</option>
 							<option value="female">여자</option>
 						</select>
 					</div>
 					<div class="mb-3">
 						<label for="email">이메일</label> 
-						<input type="email" class="form-control" id="email" placeholder="you@example.com" required>
+						<input type="email" class="form-control" id="email" name="email" placeholder="you@example.com" required>
 						<div class="invalid-feedback">이메일을 입력해주세요.</div>
 					</div>
 					<div class="mb-3">
@@ -59,18 +59,14 @@
 
 					<hr class="mb-4">
 					<div class="custom-control custom-checkbox">
-						<input type="checkbox" class="custom-control-input" id="aggrement"
-							required> <label class="custom-control-label"
-							for="aggrement">개인정보 수집 및 이용에 동의합니다.</label>
+						<input type="checkbox" class="custom-control-input" id="aggrement" required> 
+							<label class="custom-control-label" for="aggrement">개인정보 수집 및 이용에 동의합니다.</label>
 					</div>
 					<div class="mb-4"></div>
-					<button class="btn btn-primary btn-lg btn-block" type="submit">가입 완료</button>
+					<button class="btn btn-primary btn-lg btn-block" type="button" onclick="joinCheck()">가입 완료</button>
 				</form>
 			</div>
 		</div>
-		<footer class="my-3 text-center text-small">
-			<p class="mb-1">&copy; 2021 YD</p>
-		</footer>
 	</div>
 </body>
 </html>
