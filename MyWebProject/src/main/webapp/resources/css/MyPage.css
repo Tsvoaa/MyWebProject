@@ -1,0 +1,27 @@
+
+.myPageContainer
+{
+	display: flex;
+}
+
+.myPageContainer .menuLeft
+{
+	width: 30%;
+}
+
+.myPageContainer .menuRight
+{
+	margin-left: 30px;
+
+}
+
+.myPageContainer .menuRight .input-group span
+{
+	width: 150px;
+	justify-content: center;
+}
+
+.myPageContainer .menuRight .input-group button
+{
+	width: 100%;
+}

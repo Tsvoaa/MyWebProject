@@ -50,4 +50,10 @@ public class LoginController {
 		return "/Index.jsp?main=Main/Member/JoinProcess";
 	}
 	
+	@RequestMapping(value = "MyPage")
+	public String MyPage()
+	{
+		return "/Index.jsp?main=Main/Member/MyPage";
+	}
+	
 }
