@@ -35,7 +35,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Portfolio 김현석</title>
 </head>
 <body>
 	<!-- WebSite Nav JSP Include -->

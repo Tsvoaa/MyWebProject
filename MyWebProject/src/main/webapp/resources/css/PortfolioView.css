@@ -1,0 +1,20 @@
+.PortfolioContainer
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	margin-top: 150px;
+}
+
+.PortfolioContainer .PortfolioMenu
+{
+	width: 15%;
+}
+
+.PortfolioContainer .PortfolioView
+{
+	margin-left: 5%;
+	
+	width: 80%;
+}

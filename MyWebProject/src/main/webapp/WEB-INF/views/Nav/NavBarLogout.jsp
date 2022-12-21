@@ -13,7 +13,7 @@
 				<a href="Index"><sapn>Logo</sapn></a>
 			</div>
 			<div class="left-item">
-				<a href="ChatMain"><span>Chat</span></a>
+				<a href="Portfolio"><span>Portfolio</span></a>
 			</div>
 			<div class="left-item">
 				<span>메뉴2</span>
