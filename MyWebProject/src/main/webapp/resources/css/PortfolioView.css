@@ -18,3 +18,8 @@
 	
 	width: 80%;
 }
+
+.PortfolioContainer .PortfolioMenu .list-group .PortfolioList
+{
+	overflow: hidden;
+}
