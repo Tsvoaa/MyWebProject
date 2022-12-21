@@ -7,10 +7,8 @@
 	db.Connecting();
 	
 	String id = (String)session.getAttribute("user");
-	String sql = "";
+	String sql = String.format("SELECT membername, membermail, memberphone FROM member WHERE memberid='%s'", id);
 
-	sql = String.format("SELECT membername, membermail, memberphone FROM member WHERE memberid='%s'", id);
-	
 	String[][] result = db.SqlSelect(sql, 3);
 	
 	db.DisConnecting();
@@ -25,7 +23,8 @@
 	href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
 	integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
 	crossorigin="anonymous">
-<link rel="stylesheet" href="/my/resources/css/MyPage.css?ver=2">
+<link rel="stylesheet" href="/my/resources/css/MyPage.css?ver=4">
+<script defer src="/my/resources/js/MyPage.js?ver=1" ></script>
 
 </head>
 <body>
@@ -39,7 +38,7 @@
 			</div>
 		</div>
 		<div class="menuRight">
-			<form action="#" method="post">
+			<form action="MyPageUpdateProcess" method="post">
 				<div class="input-group">
   					<div class="input-group-prepend">
     					<span class="input-group-text">아이디</span>
@@ -50,13 +49,13 @@
   					<div class="input-group-prepend">
     					<span class="input-group-text">비밀번호</span>
   					</div>
-  					<input type="text" aria-label="pw" id="pw" name="pw" class="form-control">
+  					<input type="password" aria-label="pw" id="pw" name="pw" class="form-control">
 				</div>
 				<div class="input-group">
   					<div class="input-group-prepend">
     					<span class="input-group-text">비밀번호 확인</span>
   					</div>
-  					<input type="text" aria-label="pwCheck" id="pwCheck" class="form-control">
+  					<input type="password" aria-label="pwCheck" id="pwCheck" class="form-control">
 				</div>
 				<div class="input-group">
   					<div class="input-group-prepend">

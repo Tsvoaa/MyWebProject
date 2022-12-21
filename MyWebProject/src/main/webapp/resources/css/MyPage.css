@@ -2,16 +2,20 @@
 .myPageContainer
 {
 	display: flex;
+	
+	margin-top: 150px;
 }
 
 .myPageContainer .menuLeft
 {
-	width: 30%;
+	width: 15%;
+	justify-content: left;
 }
 
 .myPageContainer .menuRight
 {
-	margin-left: 30px;
+	margin-left: 28%;
+	justify-content: center;
 
 }
 

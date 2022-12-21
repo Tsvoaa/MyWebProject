@@ -56,4 +56,10 @@ public class LoginController {
 		return "/Index.jsp?main=Main/Member/MyPage";
 	}
 	
+	@RequestMapping(value = "MyPageUpdateProcess")
+	public String MyPageUpdateProcess()
+	{
+		return "/Index.jsp?main=Main/Member/MyPageUpdateProcess";
+	}
+	
 }
