@@ -1,0 +1,15 @@
+:root
+{
+	--subject-carousel-bg: #c0c0c0;	
+}
+
+.subject .carousel
+{
+	width: 80%;
+	height: 500px;
+	border: 1px solid red;
+	
+	background-color: var(--subject-carousel-bg);
+	
+	border-radius: 10px;
+}
