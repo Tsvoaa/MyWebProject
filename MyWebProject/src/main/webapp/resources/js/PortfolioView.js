@@ -84,9 +84,9 @@ projectMenu.addEventListener("click", () => {
 	subjectMenu.classList.remove("active");
 	ohterMenu.classList.remove("active");
 	
-	homepeasyMenu.classList.remove("active");
-	studentMenu.classList.remove("active");
-	imageMenu.classList.remove("active");
+	//homepeasyMenu.classList.remove("active");
+	//studentMenu.classList.remove("active");
+	//imageMenu.classList.remove("active");
 	
 	project.classList.remove("hidden");
 	//projectMenu.classList.add("active");

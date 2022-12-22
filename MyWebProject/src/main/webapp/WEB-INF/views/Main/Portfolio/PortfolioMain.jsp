@@ -35,7 +35,6 @@
 				222222
 			</div>
 			<div class="project hidden">
-				333333
 				<div class="homepeasy hidden">
 					555555
 				</div>
