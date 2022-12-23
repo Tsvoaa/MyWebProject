@@ -11,6 +11,7 @@
 <link rel="stylesheet" href = "/my/resources/css/Portfolio/PortfolioView.css?ver=5" />
 <link rel="stylesheet" href = "/my/resources/css/Portfolio/Personal.css?ver=2" />
 <link rel="stylesheet" href = "/my/resources/css/Portfolio/Subject.css?ver=3" />
+<link rel="stylesheet" href = "/my/resources/css/Portfolio/ProjectHomePEasy.css?ver=1" />
 
 <script defer src="/my/resources/js/PortfolioView.js?ver=2" ></script>
 
@@ -250,20 +251,146 @@
 				</div>
 				<!-- 2학년 2학기 -->
 				<div class="std">
-					<h4><span class="badge badge-pill badge-secondary">2학년 1학기</span></h4>
+					<h4><span class="badge badge-pill badge-secondary">2학년 2학기</span></h4>
 					<ul class="list-group list-group-horizontal">
   						<li class="list-group-item subjectSort">구분</li>
   						<li class="list-group-item subjectName">교과목명</li>
   						<li class="list-group-item subjectScore">성적</li>
 					</ul>
 					<ul class="list-group list-group-horizontal-sm">
-  						<li class="list-group-item subjectSort"></li>
-  						<li class="list-group-item subjectName"></li>
+  						<li class="list-group-item subjectSort">전필</li>
+  						<li class="list-group-item subjectName">취창업멘토링(4)</li>
+ 	 					<li class="list-group-item subjectScore">P</li>
+					</ul>
+					<ul class="list-group list-group-horizontal-sm">
+  						<li class="list-group-item subjectSort">전선</li>
+  						<li class="list-group-item subjectName">시스템분석및설계</li>
+ 	 					<li class="list-group-item subjectScore">A+</li>
+					</ul>
+					<ul class="list-group list-group-horizontal-sm">
+  						<li class="list-group-item subjectSort">전선</li>
+  						<li class="list-group-item subjectName">운영체제</li>
+ 	 					<li class="list-group-item subjectScore">A0</li>
+					</ul>
+					<ul class="list-group list-group-horizontal-sm">
+  						<li class="list-group-item subjectSort">전선</li>
+  						<li class="list-group-item subjectName">VC++실습</li>
+ 	 					<li class="list-group-item subjectScore">A0</li>
+					</ul>
+					<ul class="list-group list-group-horizontal-sm">
+  						<li class="list-group-item subjectSort">전선</li>
+  						<li class="list-group-item subjectName">모바일프로그래밍(1)</li>
+ 	 					<li class="list-group-item subjectScore">A+</li>
+					</ul>
+					<ul class="list-group list-group-horizontal-sm">
+  						<li class="list-group-item subjectSort">전선</li>
+  						<li class="list-group-item subjectName">Java프로그래밍응용</li>
+ 	 					<li class="list-group-item subjectScore">B0</li>
+					</ul>
+					<ul class="list-group list-group-horizontal-sm">
+  						<li class="list-group-item subjectSort">전선</li>
+  						<li class="list-group-item subjectName">JSP</li>
+ 	 					<li class="list-group-item subjectScore">A0</li>
+					</ul>
+					<ul class="list-group list-group-horizontal-sm">
+  						<li class="list-group-item subjectSort">전선</li>
+  						<li class="list-group-item subjectName">DB설계및구축</li>
+ 	 					<li class="list-group-item subjectScore">A+</li>
+					</ul>
+					<ul class="list-group list-group-horizontal-sm">
+  						<li class="list-group-item subjectAvg">평점 평균</li>
+  						<li class="list-group-item subjectTotal">4.08</li>
+					</ul>
+				</div>
+				<!-- 3학년 1학기 -->
+				<div class="std">
+					<h4><span class="badge badge-pill badge-secondary">3학년 1학기</span></h4>
+					<ul class="list-group list-group-horizontal">
+  						<li class="list-group-item subjectSort">구분</li>
+  						<li class="list-group-item subjectName">교과목명</li>
+  						<li class="list-group-item subjectScore">성적</li>
+					</ul>
+					<ul class="list-group list-group-horizontal-sm">
+  						<li class="list-group-item subjectSort">전필</li>
+  						<li class="list-group-item subjectName">취창업멘토링(5)</li>
+ 	 					<li class="list-group-item subjectScore">P</li>
+					</ul>
+					<ul class="list-group list-group-horizontal-sm">
+  						<li class="list-group-item subjectSort">전선</li>
+  						<li class="list-group-item subjectName">진로탐색</li>
+ 	 					<li class="list-group-item subjectScore">A0</li>
+					</ul>
+					<ul class="list-group list-group-horizontal-sm">
+  						<li class="list-group-item subjectSort">전선</li>
+  						<li class="list-group-item subjectName">소프트웨어공학</li>
+ 	 					<li class="list-group-item subjectScore">B+</li>
+					</ul>
+					<ul class="list-group list-group-horizontal-sm">
+  						<li class="list-group-item subjectSort">전선</li>
+  						<li class="list-group-item subjectName">C#프로그래밍</li>
+ 	 					<li class="list-group-item subjectScore">A+</li>
+					</ul>
+					<ul class="list-group list-group-horizontal-sm">
+  						<li class="list-group-item subjectSort">전선</li>
+  						<li class="list-group-item subjectName">모바일프로그래밍(2)</li>
+ 	 					<li class="list-group-item subjectScore">A0</li>
+					</ul>
+					<ul class="list-group list-group-horizontal-sm">
+  						<li class="list-group-item subjectSort">전선</li>
+  						<li class="list-group-item subjectName">JavaFramework</li>
+ 	 					<li class="list-group-item subjectScore">B0</li>
+					</ul>
+					<ul class="list-group list-group-horizontal-sm">
+  						<li class="list-group-item subjectSort">전선</li>
+  						<li class="list-group-item subjectName">데이터베이스프로그래밍</li>
+ 	 					<li class="list-group-item subjectScore">A+</li>
+					</ul>
+					<ul class="list-group list-group-horizontal-sm">
+  						<li class="list-group-item subjectAvg">평점 평균</li>
+  						<li class="list-group-item subjectTotal">3.91</li>
+					</ul>
+				</div>
+				<!-- 3학년 2학기 -->
+				<div class="std">
+					<h4><span class="badge badge-pill badge-secondary">3학년 2학기</span></h4>
+					<ul class="list-group list-group-horizontal">
+  						<li class="list-group-item subjectSort">구분</li>
+  						<li class="list-group-item subjectName">교과목명</li>
+  						<li class="list-group-item subjectScore">성적</li>
+					</ul>
+					<ul class="list-group list-group-horizontal-sm">
+  						<li class="list-group-item subjectSort">전필</li>
+  						<li class="list-group-item subjectName">취창업멘토링(6)</li>
+ 	 					<li class="list-group-item subjectScore">P</li>
+					</ul>
+					<ul class="list-group list-group-horizontal-sm">
+  						<li class="list-group-item subjectSort">전선</li>
+  						<li class="list-group-item subjectName">정보보안</li>
+ 	 					<li class="list-group-item subjectScore"></li>
+					</ul>
+					<ul class="list-group list-group-horizontal-sm">
+  						<li class="list-group-item subjectSort">전선</li>
+  						<li class="list-group-item subjectName">비즈니스모델및설계</li>
+ 	 					<li class="list-group-item subjectScore"></li>
+					</ul>
+					<ul class="list-group list-group-horizontal-sm">
+  						<li class="list-group-item subjectSort">전선</li>
+  						<li class="list-group-item subjectName">기업솔루션프로젝트</li>
+ 	 					<li class="list-group-item subjectScore"></li>
+					</ul>
+					<ul class="list-group list-group-horizontal-sm">
+  						<li class="list-group-item subjectSort">전선</li>
+  						<li class="list-group-item subjectName">응용SW실무</li>
+ 	 					<li class="list-group-item subjectScore"></li>
+					</ul>
+					<ul class="list-group list-group-horizontal-sm">
+  						<li class="list-group-item subjectSort">전선</li>
+  						<li class="list-group-item subjectName">빅데이터활용</li>
  	 					<li class="list-group-item subjectScore"></li>
 					</ul>
 					<ul class="list-group list-group-horizontal-sm">
   						<li class="list-group-item subjectAvg">평점 평균</li>
-  						<li class="list-group-item subjectTotal">3.73</li>
+  						<li class="list-group-item subjectTotal"></li>
 					</ul>
 				</div>
 			</div>
@@ -272,7 +399,14 @@
 				<!-- HomePEasy 프로젝트 -->
 				<div class="homepeasy hidden">
 					<div class="homepeasySRC">
-						
+						<div>
+							<span class="badge badge-pill badge-secondary">배포 주소</span>
+							<a href="http://homepeasy.shop" target="_blank">http://homepeasy.shop</a>
+						</div>
+						<div>
+							<span class="badge badge-pill badge-secondary">GitHub 주소</span>
+							<a href="https://github.com/Tsvoaa/HomePEasy" target="_blank">https://github.com/Tsvoaa/HomePEasy</a>
+						</div>
 					</div>
 					<div class="homepeasyText">
 						
