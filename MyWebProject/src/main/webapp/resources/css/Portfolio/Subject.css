@@ -3,13 +3,25 @@
 	--subject-carousel-bg: #c0c0c0;	
 }
 
-.subject .carousel
+.subject .list-group .subjectSort,
+.subject .list-group .subjectScore
 {
-	width: 80%;
-	height: 500px;
-	border: 1px solid red;
-	
-	background-color: var(--subject-carousel-bg);
-	
-	border-radius: 10px;
+	width: 100px;
+}
+
+.subject
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.subject .list-group .subjectName
+{
+	width: 250px;
+}
+
+.subject .list-group .subjectAvg,
+.subject .list-group .subjectTotal
+{
+	width: 225px;
 }
