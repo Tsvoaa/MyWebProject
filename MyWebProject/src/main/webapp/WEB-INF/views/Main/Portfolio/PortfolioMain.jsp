@@ -398,7 +398,7 @@
 			<div class="project hidden">
 				<!-- HomePEasy 프로젝트 -->
 				<div class="homepeasy hidden">
-					<div class="homepeasySRC">
+					<div class="homepeasyInfo">
 						<div>
 							<span class="badge badge-pill badge-secondary">배포 주소</span>
 							<a href="http://homepeasy.shop" target="_blank">http://homepeasy.shop</a>
@@ -407,16 +407,38 @@
 							<span class="badge badge-pill badge-secondary">GitHub 주소</span>
 							<a href="https://github.com/Tsvoaa/HomePEasy" target="_blank">https://github.com/Tsvoaa/HomePEasy</a>
 						</div>
+						<div>
+							<span class="badge badge-pill badge-secondary">진행 기간</span>
+							<span>2022.08 ~ 2022.11</span>
+						</div>
 					</div>
 					<div class="homepeasyText">
 						
 					</div>
 				</div>
 				<div class="student hidden">
-					666666
+					<div class="stdManageInfo">
+							<div>
+							<span class="badge badge-pill badge-secondary">GitHub 주소</span>
+							<a href="https://github.com/Tsvoaa/C-StudentManagement" target="_blank">https://github.com/Tsvoaa/C-StudentManagement</a>
+						</div>
+						<div>
+							<span class="badge badge-pill badge-secondary">진행 기간</span>
+							<span>2022.10 ~ 2022.12</span>
+						</div>
+					</div>
 				</div>
 				<div class="image hidden">
-					777777
+					<div class="imageInfo">
+						<div>
+							<span class="badge badge-pill badge-secondary">GitHub 주소</span>
+							<a href="https://github.com/Tsvoaa/ImageCaptureTranslation" target="_blank">https://github.com/Tsvoaa/ImageCaptureTranslation</a>
+						</div>
+						<div>
+							<span class="badge badge-pill badge-secondary">진행 기간</span>
+							<span>2022.11 ~ 2022.12</span>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="ohter hidden">
