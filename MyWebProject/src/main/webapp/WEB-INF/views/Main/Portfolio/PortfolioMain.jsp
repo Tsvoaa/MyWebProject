@@ -572,6 +572,27 @@
 							<span class="badge badge-pill badge-secondary">진행 기간</span>
 							<span>2022.10 ~ 2022.12</span>
 						</div>
+						<!-- IDE에 관한 내용 -->
+						<div class="homepeasyIDE">
+							<span class="badge badge-pill badge-secondary">IDE</span>
+							<br> &nbsp; &nbsp; &nbsp; &nbsp;
+								VisualStudio 2022
+						</div>
+						<div class="homepeasySetting">
+							<span class="badge badge-pill badge-secondary">관련 기술</span>
+							<br> &nbsp; &nbsp; &nbsp; &nbsp;
+								.NET Framework
+							<br> &nbsp; &nbsp; &nbsp; &nbsp;
+								MySQL
+						</div>
+						<!-- 개발환경에 관한 내용 -->
+						<div class="homepeasyService">
+							<span class="badge badge-pill badge-secondary">개발 환경</span>
+							<br> &nbsp; &nbsp; &nbsp; &nbsp;
+								DB : Amazon AWS Ubuntu In MySQL 
+							<br> &nbsp; &nbsp; &nbsp; &nbsp;
+								
+						</div>
 					</div>
 				</div>
 				<div class="image hidden">
