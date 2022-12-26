@@ -366,31 +366,31 @@
 					<ul class="list-group list-group-horizontal-sm">
   						<li class="list-group-item subjectSort">전선</li>
   						<li class="list-group-item subjectName">정보보안</li>
- 	 					<li class="list-group-item subjectScore"></li>
+ 	 					<li class="list-group-item subjectScore">A+</li>
 					</ul>
 					<ul class="list-group list-group-horizontal-sm">
   						<li class="list-group-item subjectSort">전선</li>
   						<li class="list-group-item subjectName">비즈니스모델및설계</li>
- 	 					<li class="list-group-item subjectScore"></li>
+ 	 					<li class="list-group-item subjectScore">A0</li>
 					</ul>
 					<ul class="list-group list-group-horizontal-sm">
   						<li class="list-group-item subjectSort">전선</li>
   						<li class="list-group-item subjectName">기업솔루션프로젝트</li>
- 	 					<li class="list-group-item subjectScore"></li>
+ 	 					<li class="list-group-item subjectScore">A+</li>
 					</ul>
 					<ul class="list-group list-group-horizontal-sm">
   						<li class="list-group-item subjectSort">전선</li>
   						<li class="list-group-item subjectName">응용SW실무</li>
- 	 					<li class="list-group-item subjectScore"></li>
+ 	 					<li class="list-group-item subjectScore">A0</li>
 					</ul>
 					<ul class="list-group list-group-horizontal-sm">
   						<li class="list-group-item subjectSort">전선</li>
   						<li class="list-group-item subjectName">빅데이터활용</li>
- 	 					<li class="list-group-item subjectScore"></li>
+ 	 					<li class="list-group-item subjectScore">A0</li>
 					</ul>
 					<ul class="list-group list-group-horizontal-sm">
   						<li class="list-group-item subjectAvg">평점 평균</li>
-  						<li class="list-group-item subjectTotal"></li>
+  						<li class="list-group-item subjectTotal">4.20</li>
 					</ul>
 				</div>
 			</div>
