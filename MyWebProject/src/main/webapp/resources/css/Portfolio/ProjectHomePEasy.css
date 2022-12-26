@@ -15,3 +15,18 @@
 	border: 1px solid red;
 }
 
+.project .homepeasy .homepeasyImage1 .carousel .carousel-item .carousel-caption
+{
+	color: black;
+}
+
+.project .homepeasy .homepeasyImage1 .carousel .carousel-control-prev .carousel-control-prev-icon,
+.project .homepeasy .homepeasyImage1 .carousel .carousel-control-next .carousel-control-next-icon
+{
+	background-color: black;
+}
+
+.project .homepeasy .homepeasyImage1 .carousel .carousel-indicators li
+{
+	background-color: black;
+}
