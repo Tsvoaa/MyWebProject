@@ -4,3 +4,14 @@
 {
 	width: 100px;
 }
+
+.project .homepeasy .homepeasyImage1
+{
+	margin-top: 20px;
+	
+	width: 80%;
+	height : 100%;
+	
+	border: 1px solid red;
+}
+

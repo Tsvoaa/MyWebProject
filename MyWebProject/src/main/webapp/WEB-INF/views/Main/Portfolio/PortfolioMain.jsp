@@ -11,7 +11,7 @@
 <link rel="stylesheet" href = "/my/resources/css/Portfolio/PortfolioView.css?ver=5" />
 <link rel="stylesheet" href = "/my/resources/css/Portfolio/Personal.css?ver=2" />
 <link rel="stylesheet" href = "/my/resources/css/Portfolio/Subject.css?ver=3" />
-<link rel="stylesheet" href = "/my/resources/css/Portfolio/ProjectHomePEasy.css?ver=1" />
+<link rel="stylesheet" href = "/my/resources/css/Portfolio/ProjectHomePEasy.css?ver=2" />
 
 <script defer src="/my/resources/js/PortfolioView.js?ver=2" ></script>
 
@@ -393,11 +393,20 @@
   						<li class="list-group-item subjectTotal">4.20</li>
 					</ul>
 				</div>
+				<!-- 총합 평점 -->
+				<div class="total">
+					<h4><span class="badge badge-pill badge-secondary">총합 평균</span></h4>
+					<ul class="list-group list-group-horizontal-sm">
+  						<li class="list-group-item subjectAvg">촘합 평균</li>
+  						<li class="list-group-item subjectTotal">3.82</li>
+					</ul>				
+				</div>
 			</div>
 			<!-- 프로젝트 관련 내용 -->
 			<div class="project hidden">
 				<!-- HomePEasy 프로젝트 -->
 				<div class="homepeasy hidden">
+					<!-- HomePEasy 설명 -->
 					<div class="homepeasyInfo">
 						<div>
 							<span class="badge badge-pill badge-secondary">배포 주소</span>
@@ -411,9 +420,52 @@
 							<span class="badge badge-pill badge-secondary">진행 기간</span>
 							<span>2022.08 ~ 2022.11</span>
 						</div>
-					</div>
-					<div class="homepeasyText">
 						
+					</div>
+					
+					<!-- 실행 화면 관련 -->
+					<div class="homepeasyImage1">
+						<div class="homepeasyStartView">
+							<span class="badge badge-pill badge-secondary">실행 화면</span>
+						</div>
+						<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  							<ol class="carousel-indicators">
+    							<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    							<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    							<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  							</ol>
+  							<div class="carousel-inner">
+    							<div class="carousel-item active">
+      								<img src="/my/resources/img/portfolio/project/homepeasy/1.PNG" class="d-block w-100" alt="...">
+      								<div class="carousel-caption d-none d-md-block">
+        								<h5>First slide label</h5>
+        								<p>Some representative placeholder content for the first slide.</p>
+      								</div>
+    							</div>
+    							<div class="carousel-item">
+      								<img src="/my/resources/img/portfolio/project/homepeasy/2.PNG" class="d-block w-100" alt="...">
+      								<div class="carousel-caption d-none d-md-block">
+        								<h5>Second slide label</h5>
+       	 								<p>Some representative placeholder content for the second slide.</p>
+      								</div>
+    							</div>
+    							<div class="carousel-item">
+      								<img src="/my/resources/img/portfolio/project/homepeasy/3.PNG" class="d-block w-100" alt="...">
+      								<div class="carousel-caption d-none d-md-block">
+        								<h5>Third slide label</h5>
+        								<p>Some representative placeholder content for the third slide.</p>
+      								</div>
+    							</div>
+  							</div>
+  							<button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+    							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    							<span class="sr-only">Previous</span>
+  							</button>
+  							<button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+    							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    							<span class="sr-only">Next</span>
+  							</button>
+						</div>
 					</div>
 				</div>
 				<div class="student hidden">
