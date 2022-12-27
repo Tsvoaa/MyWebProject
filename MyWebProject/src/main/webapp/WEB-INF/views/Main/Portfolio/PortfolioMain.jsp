@@ -12,6 +12,7 @@
 <link rel="stylesheet" href = "/my/resources/css/Portfolio/Personal.css?ver=2" />
 <link rel="stylesheet" href = "/my/resources/css/Portfolio/Subject.css?ver=3" />
 <link rel="stylesheet" href = "/my/resources/css/Portfolio/ProjectHomePEasy.css?ver=3" />
+<link rel="stylesheet" href = "/my/resources/css/Portfolio/StudentManagement.css?ver=1" />
 
 <script defer src="/my/resources/js/PortfolioView.js?ver=2" ></script>
 
@@ -573,12 +574,12 @@
 							<span>2022.10 ~ 2022.12</span>
 						</div>
 						<!-- IDE에 관한 내용 -->
-						<div class="homepeasyIDE">
+						<div class="stdManageIDE">
 							<span class="badge badge-pill badge-secondary">IDE</span>
 							<br> &nbsp; &nbsp; &nbsp; &nbsp;
 								VisualStudio 2022
 						</div>
-						<div class="homepeasySetting">
+						<div class="stdManageSetting">
 							<span class="badge badge-pill badge-secondary">관련 기술</span>
 							<br> &nbsp; &nbsp; &nbsp; &nbsp;
 								.NET Framework
@@ -586,13 +587,61 @@
 								MySQL
 						</div>
 						<!-- 개발환경에 관한 내용 -->
-						<div class="homepeasyService">
+						<div class="stdManageService">
 							<span class="badge badge-pill badge-secondary">개발 환경</span>
 							<br> &nbsp; &nbsp; &nbsp; &nbsp;
 								DB : Amazon AWS Ubuntu In MySQL 
 							<br> &nbsp; &nbsp; &nbsp; &nbsp;
-								
 						</div>
+					</div>
+					<!-- 학생관리 실행화면 관련 내용 -->
+					<div class="stdManageImage">
+						<span class="badge badge-pill badge-secondary">실행화면</span>
+						<div class="media">
+							<span class="badge badge-pill badge-secondary">1번</span>
+  							<img src="/my/resources/img/portfolio/project/studentManagement/1.PNG" class="mr-3" alt="...">
+  							<div class="media-body">
+    							<h5 class="mt-0">로그인 및 회원가입 폼</h5>
+    							<p>
+    								기본적인 회원가입과 로그인을 위한 첫 폼
+    							</p>
+  							</div>
+						</div>
+						<div class="media">
+							<span class="badge badge-pill badge-secondary">2번</span>
+  							<img src="/my/resources/img/portfolio/project/studentManagement/2.PNG" class="mr-3" alt="...">
+  							<div class="media-body">
+    							<h5 class="mt-0">학생목록 폼</h5>
+    							<p>
+    								1. 학생들의 목록을 학년, 반 별로 볼 수 있음
+    								<br>
+    								2. DB에 등록된 학년과 학기를 기준으로 결석 횟수에 따라 색으로 표시
+    								<br> &nbsp; &nbsp; &nbsp; &nbsp; 1회 : 노랑
+    								<br> &nbsp; &nbsp; &nbsp; &nbsp; 2회 : 주황
+    								<br> &nbsp; &nbsp; &nbsp; &nbsp; 3회 : 빨강
+    								<br> &nbsp; &nbsp; &nbsp; &nbsp; 4회 이상 : 회색
+    							</p>
+  							</div>
+						</div>
+						<div class="media">
+							<span class="badge badge-pill badge-secondary">3번</span>
+  							<img src="/my/resources/img/portfolio/project/studentManagement/3.PNG" class="mr-3" alt="...">
+  							<div class="media-body">
+    							<h5 class="mt-0">과목목록 폼</h5>
+    							<p>
+    								2번 이미지의 과목 보기를 통해 접근
+    								<br><br>
+    								1. 현재 DB에 저장되어 있는 과목들의 목록을 출력
+    								<br>
+    								2. 목록의 과목을 선택하여 전체 인원에 대한 출석/결석을 처리 가능
+    								<br>
+    								3. 새로운 과목이 생겼을 시 필요한 정보를 넣고 추가 가능
+    								<br>
+    								4. 필요 없는 과목의 경우 삭제 가능
+    							</p>
+  							</div>
+						</div>
+						
 					</div>
 				</div>
 				<div class="image hidden">
