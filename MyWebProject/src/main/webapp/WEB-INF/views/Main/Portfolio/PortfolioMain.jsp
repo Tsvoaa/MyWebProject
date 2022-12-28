@@ -11,7 +11,7 @@
 <link rel="stylesheet" href = "/my/resources/css/Portfolio/PortfolioView.css?ver=5" />
 <link rel="stylesheet" href = "/my/resources/css/Portfolio/Personal.css?ver=2" />
 <link rel="stylesheet" href = "/my/resources/css/Portfolio/Subject.css?ver=3" />
-<link rel="stylesheet" href = "/my/resources/css/Portfolio/ProjectHomePEasy.css?ver=3" />
+<link rel="stylesheet" href = "/my/resources/css/Portfolio/ProjectHomePEasy.css?ver=4" />
 <link rel="stylesheet" href = "/my/resources/css/Portfolio/StudentManagement.css?ver=1" />
 
 <script defer src="/my/resources/js/PortfolioView.js?ver=2" ></script>
@@ -641,7 +641,98 @@
     							</p>
   							</div>
 						</div>
-						
+						<div class="media">
+							<span class="badge badge-pill badge-secondary">4번</span>
+  							<img src="/my/resources/img/portfolio/project/studentManagement/4.PNG" class="mr-3" alt="...">
+  							<div class="media-body">
+    							<h5 class="mt-0">과목 수강 학생 폼</h5>
+    							<p>
+    								3번 이미지의 리스트뷰 더블클릭으로 접근
+    								<br><br>
+    								1. 해당하는 과목의 수강생의 목록을 출력
+    								<br>
+    								2. 학생을 선택 후 각종 점수 및 성적을 입력 가능
+    							</p>
+  							</div>
+						</div>
+						<div class="media">
+							<span class="badge badge-pill badge-secondary">5번</span>
+  							<img src="/my/resources/img/portfolio/project/studentManagement/5.PNG" class="mr-3" alt="...">
+  							<div class="media-body">
+    							<h5 class="mt-0">학생 추가 폼</h5>
+    							<p>
+    								2번 이미지의 학생 추가를 통해 접근
+    								<br><br>
+    								1. 학생의 정보를 입력하여 DB에 데이터를 추가
+    							</p>
+  							</div>
+						</div>
+						<div class="media">
+							<span class="badge badge-pill badge-secondary">6번</span>
+  							<img src="/my/resources/img/portfolio/project/studentManagement/6.PNG" class="mr-3" alt="...">
+  							<div class="media-body">
+    							<h5 class="mt-0">과목목록 폼</h5>
+    							<p>
+    								2번 이미지의 리스트뷰 더블클릭으로 접근
+    								<br><br>
+    								1. 학생의 기본적인 인적사항 출력
+    								<br>
+    								2. 해당하는 학생이 수강 중인 과목을 학년, 학기별로 분리
+    								<br>
+    								3. 리스트뷰에서 과목 선택 후 출석 여부 결정 가능
+    								<br>
+    								4. 수강 중인 과목별로 결석 횟수에 따라 색으로 표시
+    							</p>
+  							</div>
+						</div>
+						<div class="media">
+							<span class="badge badge-pill badge-secondary">7번</span>
+  							<img src="/my/resources/img/portfolio/project/studentManagement/7.PNG" class="mr-3" alt="...">
+  							<div class="media-body">
+    							<h5 class="mt-0">과목목록 폼</h5>
+    							<p>
+    								6번 이미지의 리스트뷰 더블클릭으로 접근
+    								<br><br>
+    								1. 선택한 과목을 수강중인 학생의 성적을 입력/수정 가능
+    							</p>
+  							</div>
+						</div>
+						<div class="media">
+							<span class="badge badge-pill badge-secondary">8번</span>
+  							<img src="/my/resources/img/portfolio/project/studentManagement/8.PNG" class="mr-3" alt="...">
+  							<div class="media-body">
+    							<h5 class="mt-0">과목목록 폼</h5>
+    							<p>
+    								6번 이미지의 과목 추가를 통해 접근
+    								<br><br>
+    								1. 학생의 수강하는 과목을 추가 가능
+    							</p>
+  							</div>
+						</div>
+						<div class="media">
+							<span class="badge badge-pill badge-secondary">9번</span>
+  							<img src="/my/resources/img/portfolio/project/studentManagement/9.PNG" class="mr-3" alt="...">
+  							<div class="media-body">
+    							<h5 class="mt-0">과목목록 폼</h5>
+    							<p>
+    								6번 이미지의 내역 보기를 통해 접근
+    								<br><br>
+    								1. 학생이 받은 각종 경고의 내역을 출력
+    							</p>
+  							</div>
+						</div>
+						<div class="media">
+							<span class="badge badge-pill badge-secondary">10번</span>
+  							<img src="/my/resources/img/portfolio/project/studentManagement/10.PNG" class="mr-3" alt="...">
+  							<div class="media-body">
+    							<h5 class="mt-0">과목목록 폼</h5>
+    							<p>
+    								9번 이미지의 추가하기를 통해 접근
+    								<br><br>
+    								1. 해당 하는 학생의 경고 내역을 추가 가능
+    							</p>
+  							</div>
+						</div>
 					</div>
 				</div>
 				<div class="image hidden">
@@ -653,6 +744,30 @@
 						<div>
 							<span class="badge badge-pill badge-secondary">진행 기간</span>
 							<span>2022.11 ~ 2022.12</span>
+						</div>
+						<!-- IDE에 관한 내용 -->
+						<div class="stdManageIDE">
+							<span class="badge badge-pill badge-secondary">IDE</span>
+							<br> &nbsp; &nbsp; &nbsp; &nbsp;
+								VisualStudio 2022
+						</div>
+						<div class="stdManageSetting">
+							<span class="badge badge-pill badge-secondary">관련 기술</span>
+							<br> &nbsp; &nbsp; &nbsp; &nbsp;
+								.NET Framework
+							<br> &nbsp; &nbsp; &nbsp; &nbsp;
+								MySQL
+							<br> &nbsp; &nbsp; &nbsp; &nbsp;
+								Naver PaPaGo API
+							<br> &nbsp; &nbsp; &nbsp; &nbsp;
+								IronOCR API
+						</div>
+						<!-- 개발환경에 관한 내용 -->
+						<div class="stdManageService">
+							<span class="badge badge-pill badge-secondary">개발 환경</span>
+							<br> &nbsp; &nbsp; &nbsp; &nbsp;
+								DB : Amazon AWS Ubuntu In MySQL 
+							<br> &nbsp; &nbsp; &nbsp; &nbsp;
 						</div>
 					</div>
 				</div>

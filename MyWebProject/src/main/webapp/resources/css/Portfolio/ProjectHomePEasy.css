@@ -17,7 +17,7 @@
 
 .project .homepeasy .homepeasyImage1 .carousel .carousel-item .carousel-caption
 {
-	color: black;
+	color: white;
 }
 
 .project .homepeasy .homepeasyImage1 .carousel .carousel-control-prev .carousel-control-prev-icon,
@@ -29,4 +29,9 @@
 .project .homepeasy .homepeasyImage1 .carousel .carousel-indicators li
 {
 	background-color: black;
+}
+
+.project .homepeasy .homepeasyImage1 .carousel .carousel-inner .carousel-item .carousel-caption
+{
+	background-color: rgba(0,0,0,0.5);
 }
